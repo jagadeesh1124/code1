@@ -3,16 +3,10 @@
 name: cicd
 
 on: 
-<<<<<<< HEAD:.github/workflows/ci.yaml
+
     push:
-        
-    
-=======
-    push_request:
         branches:
         - main
->>>>>>> 20a9f8a85dd5e061937eda2e58e676a4baa20a85:.github/ci.yaml
-
 jobs:
     build:
         runs-on: ubuntu-latest
