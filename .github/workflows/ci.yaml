@@ -1,11 +1,11 @@
 # CI for Product Catalog Service
 
-name: product-catalog-ci
+name: cicd
 
 on: 
-    pull_request:
-        branches:
-        - main
+    push:
+        
+    
 
 jobs:
     build:
